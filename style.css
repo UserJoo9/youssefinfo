@@ -210,6 +210,9 @@ section {
 .contact .icon{
     font-size: 4.5em;
 }
+.contact .card a{
+    text-decoration: none;
+}
 
 .contact .info h3 {
     color: #000;
