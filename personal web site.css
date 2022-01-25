@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 
@@ -49,7 +49,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/background.jpeg) no-repeat;
+    background: url(images/background.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -290,6 +290,6 @@ section {
 @media (max-width:300px){
     body{
         font-size: 10px;
-     
+
     }
 }
