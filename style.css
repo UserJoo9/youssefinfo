@@ -210,14 +210,6 @@ section {
 .contact .icon{
     font-size: 4.5em;
 }
-.contact .card a{
-    text-decoration: none;
-    color: #000;
-}
-.contact .card a:hover{
-    text-decoration: none;
-    color: #601cfc;
-}
 
 .contact .info h3 {
     color: #000;
