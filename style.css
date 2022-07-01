@@ -10,7 +10,7 @@
 
 
 header {
-    background-color: #f0f0f0;
+    background-color: #f9004d;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,14 +22,14 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 
 .navigation a{
-    color: #3a6cf4;
+    color: white;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -56,7 +56,7 @@ section {
 }
 
 .main h2 {
-    color: #fff;
+    color: #fcfc;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -64,9 +64,19 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
+    padding-left: 15px;
     color: #4e9eff;
     font-size: 3em;
     font-weight: 600;
+    color: #fcfc;
+}
+.main .sp1 {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
 }
 
 .main h3 {
@@ -80,7 +90,7 @@ section {
 
 .main-btn {
     color: #fff;
-    background-color: #3a6cf4;
+    background-color: #f9004d;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -93,7 +103,9 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #0a49f6;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+	  cursor: pointer;
     transform: scale(1.1);
 }
 
@@ -120,7 +132,7 @@ section {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #191919;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -134,7 +146,7 @@ section {
 }
 
 .card .icon {
-    color: #3a6cf4;
+    color: #fcfc;
     font-size: 8em;
     text-align: center;
 }
@@ -151,7 +163,7 @@ section {
 }
 
 .projects {
-    background-color: #000016;
+    background-color: #101010;
 }
 
 .projects .content{
@@ -159,7 +171,7 @@ section {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #191919;
     border: 1px solid #fff;
     min-height: 14em;
     width: 23em;
@@ -168,7 +180,12 @@ section {
     margin: 20px;
     transition: 0.7s ease;
 }
-
+.projects span{
+  color: white;
+}
+.projects p{
+  color: white;
+}
 .project-card:hover {
    transform: scale(1.1);
 }
@@ -221,9 +238,33 @@ section {
 .contact .info a {
     text-decoration: none;
 }
-
+.cards{
+  background-color: #101010;
+}
+.cards p{
+  color: white;
+}
+.cards h3{
+  color: #fcfc;
+}
+.cards-contact{
+  background-color: #101010;
+}
+.cards-contact .content .card .info p{
+  color: white;
+}
+.cards-contact .content .card .info a{
+  color: blue;
+  text-decoration: none;
+}
+.cards-contact .content .card .info h3{
+  color: white;
+}
+.cards-contact .content .card .info h5{
+  color: white;
+}
 .footer {
-    background-color: #000016;
+    background-color: #101010;
     color: #fff;
     padding: 2em;
     display: flex;
@@ -238,7 +279,9 @@ section {
 .footer-title span {
     color: #3a6cf4;
 }
-
+.footer .spx{
+  color: #fcfc;
+}
 .footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
