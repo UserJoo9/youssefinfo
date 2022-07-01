@@ -360,7 +360,7 @@ footer p:nth-child(2){
         padding: 12px 20px;
     }
 
-    .navigation a{
+    .header a{
         padding-left: 10px;
     }
 
@@ -368,7 +368,7 @@ footer p:nth-child(2){
         font-size: 1.8em;
     }
 
-    section{
+    div{
         padding: 80px 20px;
     }
 
