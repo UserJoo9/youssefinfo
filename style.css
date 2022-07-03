@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
+
 }
 
 
@@ -253,6 +253,7 @@ section {
 }
 .cards-contact .content .card .info p{
   color: white;
+  font-size: 14px;
 }
 .cards-contact .content .card .info a{
   color: blue;
