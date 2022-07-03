@@ -258,6 +258,8 @@ section {
 .project-card a{
   color: blue;
   text-decoration: none;
+  padding-top: 20px;
+  font-size: 20px;
 }
 .project-card h3{
   color: white;
