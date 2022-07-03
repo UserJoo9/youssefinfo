@@ -251,18 +251,18 @@ section {
 .cards-contact{
   background-color: #101010;
 }
-.cards-contact .content .card .info p{
+.project-card p{
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
-.cards-contact .content .card .info a{
+.project-card a{
   color: blue;
   text-decoration: none;
 }
-.cards-contact .content .card .info h3{
+.project-card h3{
   color: white;
 }
-.cards-contact .content .card .info h5{
+.project-card h5{
   color: white;
 }
 .footer {
