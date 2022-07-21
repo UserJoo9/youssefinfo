@@ -151,6 +151,9 @@ section {
     font-size: 8em;
     text-align: center;
 }
+.card .info h5{
+  color: white;
+}
 
 .info {
     text-align: center;
